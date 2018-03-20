@@ -1,0 +1,64 @@
+html * {
+  font-family: Georgia, Cambria, "Times New Roman", serif; }
+
+a {
+  color: #256eff; }
+
+button {
+  color: #256eff;
+  border-color: #256eff;
+  background-color: white; }
+
+h1 {
+  font-size: 52.5px; }
+
+h2 {
+  font-size: 45px; }
+
+h3 {
+  font-size: 37.5px; }
+
+h4 {
+  font-size: 30px; }
+
+h5 {
+  font-size: 22.5px; }
+
+h6 {
+  font-size: 15px; }
+
+p,
+input,
+textarea,
+label {
+  font-size: 15px; }
+
+img,
+input,
+textarea {
+  border-radius: 5px; }
+
+input.danger {
+  background-color: #c9b3e9;
+  border-color: #46237a; }
+
+figure {
+  border: 10px solid black;
+  border-radius: 5px; }
+
+figcaption {
+  color: #06bee1; }
+
+table {
+  background-color: #eafbf4; }
+
+thead {
+  border-color: #84e9fc; }
+
+tr {
+  color: black; }
+
+tbody {
+  background-color: #3ddc97; }
+
+/*# sourceMappingURL=style.css.map */
