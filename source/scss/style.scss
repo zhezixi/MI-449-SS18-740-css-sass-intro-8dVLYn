@@ -6,12 +6,16 @@ html * {
 
 a {
   color: $primary-color;
+
+  &:hover {
+    color: $third-color;
+  }
 }
 
-button {
+input[type=button] {
   color: $primary-color;
   border-color: $primary-color;
-  background-color: lighten($primary-color, 50%);
+  background-color: lighten($secondary-color, 50%);
 }
 
 h1 {
@@ -45,6 +49,11 @@ label {
   font-size: $font-base-size;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 img,
 input,
 textarea {
@@ -57,12 +66,12 @@ input.danger {
 }
 
 figure {
-  border: 10px solid darken($fourthcolor, 50%);
+  border: 10px solid darken($fourth-color, 50%);
   border-radius: $border-radius;
 }
 
 figcaption {
-  color: $fourthcolor;
+  color: $fourth-color;
 }
 
 table {
@@ -70,11 +79,11 @@ table {
 }
 
 thead {
-  border-color: lighten($fourthcolor, 30%);
+  border-color: lighten($fourth-color, 30%);
 }
 
 tr {
-  color: darken($fourthcolor, 50%);
+  color: darken($fourth-color, 50%);
 }
 
 tbody {
